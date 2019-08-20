@@ -1,5 +1,6 @@
 # Basic 3D Game Engine
-Desinging a component based architecture
+
+My own repository for expanding and improving the game engine originally built with my group as a University project. Original group project Github repository can be found <a href="https://github.com/marcin388/3D-Game-Engine">here.</a> 
 
 Compiler used: Microsoft Visual Studio 2015
 Version: 14.0.25431.01 Update 3
@@ -17,4 +18,4 @@ Libraries used:
 How to compile the code:
 
 1. Use Debug configuration and select x86 (32 bit) solution.
-2. Run the compiler in the Debug mode.
+2. Run the compiler in the Release mode.
