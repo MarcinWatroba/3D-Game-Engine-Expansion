@@ -1,0 +1,100 @@
+<objects>
+    <new_Object3D name="Back Wall" prefab="Wall" origin="(0.000000, 0.000000, 0.000000)" position="(0.598248, 26.582001, 39.705002)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(90.995003, 54.860001, 1.000000)"/>
+    <new_Object3D name="Carpet" prefab="Carpet" origin="(0.000000, 0.000000, 0.000000)" position="(16.497322, 0.069000, 18.405001)" orientation="(0.999994, -0.003445, 0.000000, 0.000000)" scale="(52.507999, 0.242000, 45.558472)"/>
+    <new_Object3D name="Door" prefab="Door" origin="(0.000000, 0.000000, 0.000000)" position="(43.079422, 22.070999, -18.319000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 43.959000, 22.507000)"/>
+    <new_Object3D name="Floor" prefab="Floor" origin="(0.000000, 0.000000, 0.000000)" position="(-0.000000, 0.000000, 0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 1.000000, 1.000000)"/>
+    <new_Object3D name="Lamp" prefab="Lamp" origin="(0.000000, 0.000000, 0.000000)" position="(0.000000, 43.939999, 0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(7.645000, 7.645000, 7.645000)"/>
+    <new_Object3D name="Lamp 2" prefab="Lamp" origin="(0.000000, 0.000000, 0.000000)" position="(-37.514999, 27.583000, -32.407001)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(7.645000, 7.645000, 7.645000)"/>
+    <new_Object3D name="Lamp Metal" prefab="Lamp Metal" origin="(0.000000, 0.000000, 0.000000)" position="(0.000000, 49.589001, 0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 10.080000, 1.000000)"/>
+    <new_Object3D name="Lamp Metal 2" prefab="Lamp Metal" origin="(0.000000, 0.000000, 0.000000)" position="(-37.744999, 12.691000, -32.474998)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 25.775000, 1.000000)"/>
+    <new_Object3D name="Left Wall" prefab="Wall" origin="(0.000000, 0.000000, 0.000000)" position="(-44.491001, 26.582001, -0.363000)" orientation="(0.708348, 0.000000, -0.705863, 0.000000)" scale="(79.934998, 54.860001, 1.000000)"/>
+    <new_Object3D name="Plant_01" prefab="Plant" origin="(0.000000, 0.000000, 0.000000)" position="(-38.686001, 5.992000, 36.338001)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 6.598000, 1.000000)"/>
+    <new_Object3D name="Plant_02" prefab="Plant" origin="(0.000000, 0.000000, 0.000000)" position="(-36.754002, 8.448000, 36.527000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(0.636000, 4.196000, 0.636000)"/>
+    <new_Object3D name="Plant_03" prefab="Plant" origin="(0.000000, 0.000000, 0.000000)" position="(-39.841999, 8.179000, 36.182999)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(0.636000, 4.196000, 0.636000)"/>
+    <new_Object3D name="Pot" prefab="Pot" origin="(0.000000, 0.000000, 0.000000)" position="(-38.918999, 2.547000, 36.721001)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(4.680000, 4.680000, 4.680000)"/>
+    <new_Object3D name="Right Wall" prefab="Wall" origin="(0.000000, 0.000000, 0.000000)" position="(43.880051, 26.582001, -0.363000)" orientation="(0.701661, -0.000001, 0.712511, -0.000080)" scale="(79.934998, 54.860001, 1.000000)"/>
+	<new_Object3D name="Robot" prefab="Robot" origin="(0.000000, 0.000000, 0.000000)" position="(20.921000, 0, 3.917150)" orientation="(1, 0, 0, -0)" scale="(1,1,1)"/>
+    <new_Object3D name="Wooden Wall" prefab="Wooden Wall" origin="(0.000000, 0.000000, 0.000000)" position="(0.921000, 53.500000, -0.365000)" orientation="(0.703704, 0.710493, 0.000000, 0.000000)" scale="(104.514999, 85.177002, 1.000000)"/>
+	<new_Object3D name="Enemy Robot" prefab="AIControlled Robot Body 1" origin="(0.000000, 0.000000, 0.000000)" position="(0.921000, 0, -0.365000)" orientation="(1,0, 0.000000, 0.000000)" scale="(1,1,1)"/>
+	<new_Object3D name="Enemy Robot2" prefab="AIControlled Robot Body 2" origin="(0.000000, 0.000000, 0.000000)" position="(10.921000, 0, -10.365000)" orientation="(1,0, 0.000000, 0.000000)" scale="(1,1,1)"/>
+	<new_Object3D name = "AmmoPack1" prefab = "AmmoPack" origin = "(0, 0.0, 0)" position = "(-38.919, 1, 30.721)" orientation = "(1,0,0,0)" scale = "(1.75, 1.75, 1.000)"/>
+	<new_Object3D name = "HealthPack" prefab = "HealthPack" origin = "(0, 0.0, 0)" position = "(38.919, 1, -34.721)" orientation = "(1,0,-45,0)" scale = "(1.75, 1.75, 1.000)"/>
+	<new_Object3D name = "Bed1" prefab = "Bed" origin = "(0,0, 0)" position = "(20, 0, 29)" orientation = "(1,0,180,0)" scale = "(1, 1, 1)"/>
+	<new_Object3D name = "BedPillow1" prefab = "BedPillow" origin = "(0,0, 0)" position = "(18, -0.9, 29)" orientation = "(1,0,180,0)" scale = "(1.1, 1.1, 1.1)"/>
+	<new_Object3D name = "WindowWall1" prefab = "WindowWall" origin = "(0,0, 0)" position = "(0, -0.05, -40)" orientation = "(1,0,1,0)" scale = "(1, 5.5,5.5)"/>
+	<new_Object3D name = "LevelExitTrigger" prefab = "LevelExit" origin = "(0,0, 0)" position = "(-44.01, 2.2, -20)" orientation = "(1,0,0,0)" scale = "(1, 4.5, 4.5)"/>
+  <new_Object3D name = "Sky" prefab = "Skybox" origin = "(0,0, 0)" position = "(0.0, 0.0, 0.0)" orientation = "(1,0,0,0)" scale = "(100.0, 100.0, 100.0)"/>
+  <new_ObjectParticle name= "Rain_01" prefab= "Rain" origin= "(0.000000, 0.000000, 0.000000)" position = "(0.000000, 40.707000, -58.000000)" orientation= "(1.000000, 0.000000, 0.000000, 0.000000)" scale = "(0.30000, 0.300000, 0.300000)" max_Particles = "100000" particle_Range = "(180, 130, 100)" particle_Colour = "(11.000000, 11.000000, 11.000000)" particle_Speed  = "(0.000000, -15.000000, 0.000000)" particle_Life = "1.000000"/>
+  <new_ObjectParticle name= "Rain_02" prefab= "Rain" origin= "(0.000000, 0.000000, 0.000000)" position = "(5.000000, 15.707000, 20.000000)" orientation= "(1.000000, 0.000000, 0.000000, 0.000000)" scale = "(0.100000, 0.100000, 0.100000)" max_Particles = "10000" particle_Range = "(100, 100, 100)" particle_Colour = "(0.000000, 1.000000, 0.000000)" particle_Speed  = "(0.000000, 90.000000, 0.000000)" particle_Life = "1.000000"/>
+</objects>
+
+<lights>
+    <new_Light name="Main Light"
+    prefab="Main Light"
+    type="Point_Light"
+	light_ID = "0"
+    position="(0.000000, 40.000000, 0.000000)"/>
+    
+    <new_Light name="Lamp Light"
+    prefab="Lamp Light"
+    type="Point_Light"
+	light_ID = "1"
+    position="(-37.744999, 30.03000, -32.474998)"/>
+
+  <new_Light name="Lamp Light"
+    prefab="Lamp Light"
+    type="Point_Light"
+	light_ID = "2"
+    position="(37.515, 1.583, 32.407)"/>
+
+</lights>
+
+<sounds>
+	<new_sound
+	name = "rain"
+	ID = "0"
+	volume = "0.3"
+	object = ""
+	position = "(0,0,0)"
+	loop = "true"
+	threeD = "true"
+	stream = "false"
+	>
+	</new_sound>
+	
+	<new_sound
+	name = "walking"
+	ID = "1"
+	volume = "0.8"
+	object = "Robot"
+	position = "(0,0,0)"
+	loop = "true"
+	threeD = "true"
+	stream = "false"
+	>
+	</new_sound>
+	
+	<new_sound
+	name = "shooting_pistol"
+	ID = "2"
+	volume = "1"
+	object = "Robot Right Arm"
+	position = "(0,0,0)"
+	loop = "false"
+	threeD = "true"
+	stream = "false"
+	>
+	</new_sound>
+	
+	<new_sound
+	name = "reload_pistol"
+	ID = "3"
+	volume = "1"
+	object = "Robot Right Arm"
+	position = "(0,0,0)"
+	loop = "false"
+	threeD = "true"
+	stream = "false"
+	>
+	</new_sound>
+</sounds>

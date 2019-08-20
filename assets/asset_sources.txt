@@ -1,0 +1,14 @@
+Sound Files sourced by:
+
+rain.wav - http://soundbible.com/2011-Rain-Background.html, Mike Koenig
+
+walking.wav - http://soundbible.com/911-Footsteps.html, Mike Koenig
+				edited using Audacity http://www.audacityteam.org/
+
+shooting_pistol.wav - http://soundbible.com/2120-9mm-Gunshot.html, Mike Koenig
+
+reload_pistol.wav - http://soundbible.com/410-9mm-Clip-Load.html, Mike Koenig
+
+3D Models sourced by:
+
+Sofa - https://archive3d.net/?a=download&id=8cab5fc8

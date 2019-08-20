@@ -1,0 +1,301 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+
+<!-- If you want to understand what IDs represent look at "mesh_IDs.h" file; -->
+<!-- (0,0,0) = This is a 3D vector -->
+<!-- 0, (0, 1, 0) = This is a quaterion. First parameter is an angle, 
+					Second parameter is a 3D vector that is an axis at which this rotation occurs -->
+
+<objects>
+	<new_Object3D
+		name = "Robot"
+		prefab = "Robot_Prefab"
+		position = "(-30, -0.5, 0)"
+		orientationX = "0, (1, 0, 0)"
+		orientationY = "180, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(-1, 1, -1)"
+		health = "100"
+		firerate = "100"
+		mass = "10"
+		
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "AIControlled Robot Body 1"
+		prefab = "AIControllerRobot_Prefab"
+		position = "(0, 0, 0)"
+		orientationX = "0, (1, 0, 0)"
+		orientationY = "-45, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(1.751, 2.156, 1.000)"
+		health = "5"
+		firerate = "20"
+		mass = "10"
+		setPath = "(0,0,0)"
+		setPath = "(10,0,10)"
+		setPath = "(5,0,5)"
+		setPath = "(-10, 0, 5)"
+		>
+	</new_Object3D>
+	<new_Object3D
+		name = "AIControlled Robot Body 2"
+		prefab = "AIControllerRobot_Prefab"
+		health = "10"
+		firerate = "20"
+		mass = "10"
+		position = "(10, 0, 10)"
+		orientationX = "0, (1, 0, 0)"
+		orientationY = "135, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(1.751, 2.156, 1.000)"
+		>
+	</new_Object3D>
+	<new_Object3D
+		name = "AIControlled Robot Body 3"
+		prefab = "AIControllerRobot_Prefab"
+		health = "5"
+		firerate = "100"
+		mass = "10"
+		position = "(0, 0, -10)"
+		orientationX = "0, (1, 0, 0)"
+		orientationY = "0, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(1.751, 2.156, 1.000)"
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "AmmoPack"
+		prefab = "AmmoPack_Prefab"
+		position = "(20, 1, 20)"
+		orientationX = "0, (1, 0, 0)"
+		orientationY = "0, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(1.751, 2.156, 1.000)"
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "Table"
+		prefab = "Table_Prefab"
+		position = "(15.232, 0, 24.198)"
+		orientationX = "0, (1, 0, 0)"
+		orientationY = "0, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(1, 1, 1)"
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "Bedroom"
+		prefab = "Bedroom_Prefab"
+		position = "(44.724, 26.582, -0.363)"
+		orientationX = "0, (1, 0, 0)"
+		orientationY = "90.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(79.935, 54.860, 1)"
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "Stairs"
+		container = "No"
+		tag = "Object"
+		mesh_ID = "7"
+		component = ""
+		diffuse_ID = "10"
+		specular_ID = "7"
+		shininess = "1"
+		texture_Tiling = "(8, 8)"
+		init_Mode = "0"
+		origin = "(0,0, 0)"
+		position = "(-26.351, 23.337, -9.334)"
+		orientationX = "-43.924, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(34.953, 85.177, 1)"
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "Lamp"
+		prefab = "Lamp_Prefab"
+		position = "(0.000, 43.940, 0)"
+		orientationX = "0.000, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(7.645, 7.645, 7.645)"
+		>
+	</new_Object3D>
+	
+ 	<new_Object3D
+		name = "Lamp 2"
+		prefab = "Lamp_Prefab"
+		position = "(-37.515, 25.583, -32.407)"
+		orientationX = "180.00.000, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(7.645, 7.645, 7.645)"
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "Painting 1"
+		prefab = "Painting_Prefab"
+		position = "(11.276, 28.263, 39.460)"
+		orientationX = "0.000, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(9.276, 9.276, 1.186)"
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "Painting 2"
+		prefab = "Painting_Prefab"
+		position = "(-0.520, 41.606, 39.460)"
+		orientationX = "0.000, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(9.276, 9.276, 1.186)"
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "Painting 3"
+		prefab = "Painting_Prefab"
+		position = "(-12, 28.263, 39.460)"
+		orientationX = "0.000, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(9.276, 9.276, 1.186)"
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "Plant_01"
+		prefab = "Plant_Prefab"
+		position = "(-38.686, 5.992, 36.338)"
+		orientationX = "0.000, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(1, 6.598, 1)"
+		>
+	</new_Object3D>
+
+	<new_Object3D
+		name = "PickUp_01"
+		prefab = "PickUp_Prefab"
+		position = "(15.469, 2.510, 23.446)"
+		orientationX = "0.000, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(1, 1, 1)"
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "PickUp_02"
+		prefab = "PickUp_Prefab"
+		position = "(-40.291, 2.717, -35.622)"
+		orientationX = "0.000, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(1, 1, 1)"
+		>
+	</new_Object3D>
+	
+	<new_Object3D
+		name = "PickUp_03"
+		prefab = "PickUp_Prefab"
+		position = "(-42.343, 2.707, 35.577)"
+		orientationX = "0.000, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(1, 1, 1)"
+		>
+	</new_Object3D>
+	
+	<new_ObjectParticle
+		name = "Rain"
+		tag = "Particle"
+		mesh_ID = "8"
+		component = ""
+		diffuse_ID = "26"
+		texture_Tiling = "(1, 1)"	
+		init_Mode = "0"
+		origin = "(0,0, 0)"
+		position = "(5.0, 15.707, -20.0)"
+		orientationX = "0.000, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(0.1, 0.1, 0.1)"
+		max_Particles = "1000"
+		>
+	</new_ObjectParticle>
+	<new_ObjectParticle
+		name = "Rain_02"
+		tag = "Particle"
+		mesh_ID = "8"
+		component = ""
+		diffuse_ID = "26"
+		texture_Tiling = "(1, 1)"	
+		init_Mode = "0"
+		origin = "(0,0, 0)"
+		position = "(5.0, 15.707, 15.0)"
+		orientationX = "0.000, (1, 0, 0)"
+		orientationY = "0.000, (0, 1, 0)"
+		orientationZ = "0, (0, 0, 1)"
+		scale = "(0.1, 0.1, 0.1)"
+		max_Particles = "1000"
+		>
+	</new_ObjectParticle>
+</objects>
+
+<lights>
+	<new_Light
+	type = "Point_Light"
+	tag = "Light"
+	light_ID = "0"
+	position = "(0, 40.940, 0)"
+	ambient = "(0.05, 0.05, 0.05)"
+	diffuse = "(0.8, 0.8, 0.8)"
+	specular = "(1, 1, 1)"
+	radius = "16.0"
+	>
+	</new_Light>
+	<new_Light
+	type = "Point_Light"
+	tag = "Light"
+	light_ID = "1"
+	position = "(-37.515, 28.583, -32.407)"
+	ambient = "(0.05, 0.05, 0.05)"
+	diffuse = "(0.8, 0.8, 0.8)"
+	specular = "(1, 1, 1)"
+	radius = "8.0"
+	>
+	</new_Light>
+	<new_Light
+	type = "Point_Light"
+	tag = "Light"
+	light_ID = "2"
+	position = "(37.515, 1.583, 32.407)"
+	ambient = "(0.05, 0.05, 0.05)"
+	diffuse = "(0.8, 0.8, 0.8)"
+	specular = "(1, 1, 1)"
+	radius = "4.0"
+	>
+	</new_Light>
+  <new_Light
+	type = "Point_Light"
+	tag = "Light"
+	light_ID = "3"
+	position = "(-33.515, 5.583, -32.407)"
+	ambient = "(0.05, 0.05, 0.05)"
+	diffuse = "(0.8, 0.8, 0.8)"
+	specular = "(1, 1, 1)"
+	radius = "4.0"
+	>
+	</new_Light>
+</lights>

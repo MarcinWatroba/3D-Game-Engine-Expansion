@@ -1,0 +1,107 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+
+<!-- If you want to understand what IDs represent look at "mesh_IDs.h" file; -->
+<!-- (0,0,0) = This is a 3D vector -->
+<!-- 0, (0, 1, 0) = This is a quaterion. First parameter is an angle, 
+					Second parameter is a 3D vector that is an axis at which this rotation occurs -->
+<objects>
+    <new_Object3D name="Wall" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D, BoxCollider_3D, RigidBody)" diffuse_ID="5" specular_ID="7" shininess="1" texture_Tiling="(8.000000, 8.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(0.000000, 0.0, 0.0)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(90.995003, 54.860001, 1.000000)"/>
+	<new_Object3D name="Carpet" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="18" specular_ID="7" shininess="1" texture_Tiling="(8.000000, 8.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(16.499001, 0.069000, 18.405001)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(52.507999, 0.242000, 40.320999)"/>
+    <new_Object3D name="Door" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="16" specular_ID="7" shininess="1" texture_Tiling="(1.000000, 1.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(43.079422, 22.070999, -18.319000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 43.959000, 22.507000)"/>
+    <new_Object3D name="Floor" stats = "" container="No" tag="Floor" mesh_ID="4" component="(Mesh_3D, RenderComp_3D, Transform_3D, BoxCollider_3D, RigidBody)" diffuse_ID="4" specular_ID="7" shininess="1" texture_Tiling="(8.000000, 8.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(-0.000000, 0.000000, 0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 1.000000, 1.000000)"/>
+	<new_Object3D name="KitchenFloor" stats = "" container="No" tag="Floor" mesh_ID="4" component="(Mesh_3D, RenderComp_3D, Transform_3D,BoxCollider_3D, RigidBody )" diffuse_ID="30" specular_ID="7" shininess="1" texture_Tiling="(8.000000, 8.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(-0.000000, 0.000000, 0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 1.000000, 1.000000)"/>
+	<new_Object3D name="Lamp" stats = "" container="No" tag="Object" mesh_ID="6" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="13" specular_ID="7" shininess="1" texture_Tiling="(8.000000, 8.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(0.000000, 43.939999, 0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(7.645000, 7.645000, 7.645000)"/>
+	<new_Object3D name="Lamp Metal" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="12" specular_ID="7" shininess="1" texture_Tiling="(1.000000, 1.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(0.000000, 49.589001, 0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 10.080000, 1.000000)"/>
+	<new_Object3D name="Painting 1" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="19" specular_ID="7" shininess="1" texture_Tiling="(12.000000, 12.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(11.276000, 28.263000, 39.459999)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(9.276000, 20.558502, 1.186000)"/>
+	<new_Object3D name="Painting 2" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="20" specular_ID="7" shininess="1" texture_Tiling="(12.000000, 12.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(-0.520000, 41.605999, 39.459999)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(9.276000, 9.276000, 1.186000)"/>
+	<new_Object3D name="Painting 3" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="21" specular_ID="7" shininess="1" texture_Tiling="(12.000000, 12.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(-12.000000, 28.263000, 39.459999)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(9.276000, 9.276000, 1.186000)"/>
+    <new_Object3D name="PickUp_01" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="24" specular_ID="7" shininess="1" texture_Tiling="(4.000000, 4.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(15.469000, 2.510000, 23.445999)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(20.703056, 21.421171, -11.462790)"/>
+    <new_Object3D name="PickUp_02" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="25" specular_ID="7" shininess="1" texture_Tiling="(4.000000, 4.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(-40.291000, 2.717000, -35.622002)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 1.000000, 1.000000)"/>
+    <new_Object3D name="PickUp_03" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="26" specular_ID="7" shininess="1" texture_Tiling="(4.000000, 4.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(-42.342999, 2.707000, 35.577000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 1.000000, 1.000000)"/>
+	<new_Object3D name="Plant" stats = "" container="No" tag="Object" mesh_ID="3" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="23" specular_ID="7" shininess="1" texture_Tiling="(4.000000, 4.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(-38.686001, 5.992000, 36.338001)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 6.598000, 1.000000)"/>
+	<new_Object3D name="Pot" stats = "" container="No" tag="Object" mesh_ID="3" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="22" specular_ID="7" shininess="1" texture_Tiling="(12.000000, 12.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(-38.918999, 2.547000, 36.721001)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(4.680000, 4.680000, 4.680000)"/>
+    <new_Object3D name="Robot Body" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D, BoxCollider_3D, RigidBody)" diffuse_ID="0" specular_ID="7" shininess="1" texture_Tiling="(1.000000, 1.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(0.000000, 2.052000, 0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.751000, 2.156000, 1.000000)"/>
+    <new_Object3D name="Robot Head" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="14" specular_ID="7" shininess="1" texture_Tiling="(1.000000, 1.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(0.000000, 3.521000, -0.487000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(0.671000, 0.826000, 1.955000)"/>
+    <new_Object3D name="Robot Left Arm" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="2" specular_ID="17" shininess="320" texture_Tiling="(0.500000, 0.500000)" origin="(0.000000, -0.500000, 0.000000)" position="(1.054000, 2.026000, 0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(0.343000, 1.811000, 0.493000)"/>
+    <new_Object3D name="Robot Left Eye" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="15" specular_ID="7" shininess="1" texture_Tiling="(4.000000, 4.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(-0.499000, 3.647000, -0.833000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(0.319000, 0.319000, 0.319000)"/>
+    <new_Object3D name="Robot Left Leg" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="2" specular_ID="17" shininess="320" texture_Tiling="(0.500000, 0.500000)" origin="(0.000000, -0.500000, 0.000000)" position="(0.512000, 0.485000, -0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(0.516000, 1.000000, 0.616000)"/>
+    <new_Object3D name="Robot Right Arm" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D, Respond_Movement)" diffuse_ID="2" specular_ID="17" shininess="320" texture_Tiling="(0.500000, 0.500000)" origin="(0.000000, -0.500000, 0.000000)" position="(-1.054000, 2.026000, 0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(0.343000, 1.811000, 0.493000)"/>
+    <new_Object3D name="Robot Right Eye" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="15" specular_ID="7" shininess="1" texture_Tiling="(4.000000, 4.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(0.499000, 3.647000, -0.833000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(0.319000, 0.319000, 0.319000)"/>
+    <new_Object3D name="Robot Right Leg" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="2" specular_ID="17" shininess="320" texture_Tiling="(0.500000, 0.500000)" origin="(0.000000, -0.500000, 0.000000)" position="(-0.512000, 0.485000, -0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(0.516000, 1.000000, 0.616000)"/>
+    <new_Object3D name="Stairs" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="10" specular_ID="7" shininess="1" texture_Tiling="(8.000000, 8.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(-26.351000, 23.337000, -9.334000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(34.952999, 85.177002, 1.000000)"/>
+    <new_Object3D name="Table" stats = "" container="No" tag="Object" mesh_ID="5" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="6" specular_ID="7" shininess="1" texture_Tiling="(8.000000, 8.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(15.232000, 0.000000, 24.198000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 1.000000, 1.000000)"/>
+    <new_Object3D name="Wooden Wall" stats = "" container="No" tag="Object" mesh_ID="7" component="(Mesh_3D, RenderComp_3D, Transform_3D)" diffuse_ID="11" specular_ID="7" shininess="1" texture_Tiling="(8.000000, 8.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(0.921000, 53.500000, -0.365000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(104.514999, 85.177002, 1.000000)"/>
+	<new_Object3D name="Robot" stats = "Player Stats" container="Yes" tag="Player" component="(Respond_Movement, Transform_3D, RigidBody, Character)" origin="(0.000000, 0.000000, 0.000000)" position="(32.579300, 1, -0.439285)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 1.000000, 1.000000)" children="(Robot Body, Robot Head, Robot Left Arm, Robot Left Eye, Robot Left Leg, Robot Right Arm, Robot Right Eye, Robot Right Leg)"/>
+	<new_Object3D name = "AIControlled Robot Body 1" stats = "Robot Stats" container = "No" tag = "Enemy" mesh_ID = "7" component = "(Mesh_3D, RenderComp_3D, Transform_3D, Respond_Movement, AI_Controller, Patrol_Path, BoxCollider_3D, RigidBody, Character)" diffuse_ID = "0" specular_ID = "7" shininess = "1" texture_Tiling = "(1, 1)" origin = "(0, 0.0, 0)" position="(32.579300, 1, -0.439285)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 1.000000, 1.000000)" />
+	<new_Object3D name = "AIControlled Robot Body 2" stats = "Robot Stats 2" container = "No" tag = "Enemy" mesh_ID = "7" component = "(Mesh_3D, RenderComp_3D, Transform_3D, Respond_Movement, AI_Controller, Patrol_Path, BoxCollider_3D, RigidBody, Character)" diffuse_ID = "0" specular_ID = "7" shininess = "1" texture_Tiling = "(1, 1)" origin = "(0, 0.0, 0)" position="(32.579300, 1, -0.439285)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 1.000000, 1.000000)" />
+	<new_Object3D name = "AmmoPack" stats = "" container = "No" tag = "Ammo" mesh_ID = "7" component = "(Mesh_3D, RenderComp_3D, Transform_3D, BoxCollider_3D, RigidBody)" diffuse_ID = "36" specular_ID = "7" shininess = "1" texture_Tiling = "(1, 1)" origin = "(0, 0.0, 0)" position = "(0,0,0)"  orientation = "(1,0,0,0)"  scale = "(1, 1, 1)"/>
+	<new_Object3D name = "HealthPack" stats = "" container = "No" tag = "HealthPack" mesh_ID = "7" component = "(Mesh_3D, RenderComp_3D, Transform_3D, BoxCollider_3D, RigidBody)" diffuse_ID = "35" specular_ID = "7" shininess = "1" texture_Tiling = "(1, 1)" origin = "(0, 0.0, 0)" position = "(0,0,0)"  orientation = "(1,0,0,0)"  scale = "(1, 1, 1)"/>
+	<new_Object3D name = "Bed" stats = "" container = "No" tag = "Object" mesh_ID = "10" component = "(Mesh_3D, RenderComp_3D, Transform_3D, RigidBody, BoxCollider_3D)" diffuse_ID = "6" specular_ID = "7" shininess = "1" texture_Tiling = "(8, 8)" origin = "(0,0, 0)" position = "(20, 0, 29)" orientation = "(1,0,0,0)" scale = "(1, 1, 1)"/>
+	<new_Object3D name = "BedPillow" stats = ""  container = "No" tag = "Object" mesh_ID = "11" component = "(Mesh_3D, RenderComp_3D, Transform_3D, RigidBody, BoxCollider_3D)" diffuse_ID = "5" specular_ID = "7" shininess = "1" texture_Tiling = "(8, 8)" origin = "(0,0, 0)" position = "(18, -0.9, 29)" orientation = "(1,0,0,0)" scale = "(1.1, 1.1, 1.1)"/>
+	<new_Object3D name = "WindowWall" stats = "" container = "No" tag = "Object" mesh_ID = "12" component = "(Mesh_3D, RenderComp_3D, Transform_3D, RigidBody, BoxCollider_3D)" diffuse_ID = "5" specular_ID = "7" shininess = "1" texture_Tiling = "(32,32)"  origin = "(0,0, 0)" position = "(0, -0.05, -40)" orientation = "(1,0,0,0)" scale = "(1, 5.5,5.5)"/>
+	<new_Object3D name = "KitchenCabinets" stats = "" container = "No" tag = "Object" mesh_ID = "7" component = "(BoxCollider_3D, RigidBody)" diffuse_ID = "31" specular_ID = "7" shininess = "1" texture_Tiling = "(1, 1)" origin = "(0,0, 0)" position = "(40, 10, 30)" orientation = "(1,0,0,0)" scale = "(60, 20, 20)"/>
+	<new_Object3D name = "KitchenTop" stats = "" container = "No" tag = "Object" mesh_ID = "7" component = "(BoxCollider_3D, RigidBody)" diffuse_ID = "6" specular_ID = "7" shininess = "1" texture_Tiling = "(1, 1)" origin = "(0,0, 0)" position = "(40, 20, 30)" orientation = "(1,0,0,0)" scale = "(65, 2, 25)"/>
+	<new_Object3D name = "KitchenCupboards" stats = "" container = "No" tag = "Object" mesh_ID = "7" component = "(BoxCollider_3D, RigidBody)" diffuse_ID = "31" specular_ID = "7" shininess = "1" texture_Tiling = "(1, 1)" origin = "(0,0, 0)" position = "(-15, 48, 35)" orientation = "(1,0,0,0)" scale = "(30, 20, 20)"/>
+	<new_Object3D name = "Fridge" stats = "" container = "No" tag = "Object" mesh_ID = "7" component = "(BoxCollider_3D, RigidBody)" diffuse_ID = "32" specular_ID = "7" shininess = "1" texture_Tiling = "(1, 1)" origin = "(0,0, 0)" position = "(44.416, 22.071, -18.319)" orientation = "(1,0,0,0)" scale = "(20, 45, 20)"/>
+	<new_Object3D name = "LevelExit" stats = "" container = "No" tag = "Exit" mesh_ID = "7" component = "(BoxCollider_3D, RigidBody)" diffuse_ID = "34" specular_ID = "7" shininess = "1" texture_Tiling = "(1, 1)" origin = "(0,0, 0)" position = "(-44.01, 2.2, -20)" orientation = "(1,0,0,0)" scale = "(0.1, 4.5, 4.5)"/>
+    <new_ObjectParticle name="Rain" container="No" tag="Particle"  mesh_ID="10"  component="(Mesh_Instanced, RenderComp_Instanced, Transform_Instanced)" diffuse_ID="26" texture_Tiling="(1.000000, 1.000000)" origin="(0.000000, 0.000000, 0.000000)" position="(0.000000, 0.000000, 0.000000)" orientation="(1.000000, 0.000000, 0.000000, 0.000000)" scale="(1.000000, 1.000000, 1.000000)"/>
+  	<new_Object2D name = "Blue Button" type = "Button" font_ID = "0" mesh_ID = "0" texture_ID = "8"/>
+	<new_Object2D name = "Text" type = "Text"  font_ID = "0" mesh_ID = "" texture_ID = ""/>
+	<new_Object2D name = "Textbox" type = "Textbox"  font_ID = "0" mesh_ID = "0" texture_ID = "8"/>
+	<new_Object2D name = "Tile" type = "Tile" font_ID = "" mesh_ID = "0" texture_ID = "8"/>
+</objects>
+
+<lights>
+	<new_Light name = "Main Light" type="Point_Light" tag="Light" position="(0.000000, 0.000000, 0.000000)" ambient="(0.150000, 0.150000, 0.150000)" diffuse="(0.800000, 0.800000, 0.800000)" specular="(1.000000, 1.000000, 1.000000)" radius="20.000000"/>
+    <new_Light name = "Lamp Light" type="Point_Light" tag="Light" position="(0.000000, 0.000000, 0.000000)" ambient="(0.050000, 0.050000, 0.050000)" diffuse="(0.800000, 0.800000, 0.800000)" specular="(1.000000, 1.000000, 1.000000)" radius="16.000000"/>
+</lights>
+
+<sounds>
+	<new_sound
+	name = "rain"
+	ID = "0"
+	volume = "0.3"
+	object = ""
+	position = "(0,0,0)"
+	loop = "true"
+	threeD = "true"
+	stream = "false"
+	>
+	</new_sound>
+	
+	<new_sound
+	name = "walking"
+	ID = "1"
+	volume = "0.8"
+	object = "Robot"
+	position = "(0,0,0)"
+	loop = "true"
+	threeD = "true"
+	stream = "false"
+	>
+	</new_sound>
+	
+	<new_sound
+	name = "shooting_pistol"
+	ID = "2"
+	volume = "1"
+	object = "Robot Right Arm"
+	position = "(0,0,0)"
+	loop = "false"
+	threeD = "true"
+	stream = "false"
+	>
+	</new_sound>
+	
+	<new_sound
+	name = "reload_pistol"
+	ID = "3"
+	volume = "1"
+	object = "Robot Right Arm"
+	position = "(0,0,0)"
+	loop = "false"
+	threeD = "true"
+	stream = "false"
+	>
+	</new_sound>
+</sounds>

@@ -1,0 +1,121 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+
+<!--- 35048 = Dynamic draw --->
+<!--- 35044 = Static Draw --->
+
+<resources>
+	<object_File_Location>assets/models/</object_File_Location>
+	<object_Files>
+		<new_File  ID = "14" i_DrawMethod = "35048" name = "robot.obj"> </new_File>
+		<new_File  ID = "11" i_DrawMethod = "35048" name = "Bed_Pillow.obj"> </new_File>
+		<new_File  ID = "13" i_DrawMethod = "35048" name = "Bed.obj"> </new_File>
+		<new_File  ID = "12" i_DrawMethod = "35048" name = "Window_Wall.obj"> </new_File>
+	    <new_File  ID = "8" i_DrawMethod = "35048" name = "Arrow.obj"> </new_File>
+		<new_File  ID = "7" i_DrawMethod = "35048" name = "Cube.obj"> </new_File>	
+		<new_File  ID = "4" i_DrawMethod = "35048" name = "floor.obj"> </new_File>
+		<new_File  ID = "5" i_DrawMethod = "35048" name = "table.obj"> </new_File>	
+		<new_File  ID = "6" i_DrawMethod = "35048" name = "Cube_BottomGone.obj"> </new_File>
+		<new_File  ID = "3" i_DrawMethod = "35048" name = "Cube_BottomGoneNotInversed.obj"> </new_File>
+	</object_Files>
+	<particle_Files>
+		<new_File  ID = "10" i_DrawMethod = "35040" name = "plane.obj"> </new_File>	
+	</particle_Files>
+		
+	<texture_File_Location>assets/textures/</texture_File_Location>
+	<texture_Files>
+		<new_File  ID = "0" name = "metal_Body.jpg" texture_Mode = "3553" wrapping_S = "10497" wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3" openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "1" name = "font.png" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4" openGL_Colour = "6408" gen_Mipmaps = "0"></new_File>
+		<new_File  ID = "2" name = "metal_HandLegs.jpg"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3" openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>		
+		<new_File  ID = "4" name = "floor.jpg" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4" openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "5" name = "wall.jpg" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3"  openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "6" name = "wood.jpg" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3"  openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>			
+		<new_File  ID = "7" name = "no_Specular.png" texture_Mode = "3553" wrapping_S = "10497" wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3" openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>		
+		<new_File  ID = "8" name = "menu_Atlas.png"	texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "0"></new_File>	
+		<new_File  ID = "9" name = "menu.jpg" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3" openGL_Colour = "6407" gen_Mipmaps = "0"></new_File>		
+		<new_File  ID = "10" name = "stairs.jpg" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3"  openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "11" name = "wooden_Door.jpg" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3"  openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>		
+		<new_File  ID = "12" name = "holey.jpg"	texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3"  openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "13" name = "lamp.jpg"	texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "14" name = "robot_Head.jpg" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3" openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "15" name = "robot_Eyes.jpg" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "16" name = "door.jpg"	texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4" openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "17" name = "metal_HandLegs_Spec.jpg" texture_Mode = "3553" wrapping_S = "10497" wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3" openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "18" name = "carpet.jpg" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3"  openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "19" name = "painting_One.png" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3" openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "20" name = "painting_Two.png"	texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>
+		<new_File  ID = "21" name = "painting_Three.png" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3"  openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>		
+		<new_File  ID = "22" name = "pot.jpg" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3"  openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>		
+		<new_File  ID = "23" name = "plant.jpg"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3" openGL_Colour = "6407" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "24" name = "Electric.png"	texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4" openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>	
+		<new_File  ID = "25" name = "Electric2.png"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>
+		<new_File  ID = "26" name = "Electric3.png"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>
+		<new_File  ID = "27" name = "red_Arrow.jpg"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "0"></new_File>
+		<new_File  ID = "28" name = "green_Arrow.jpg" texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "0"></new_File>
+		<new_File  ID = "29" name = "blue_Arrow.jpg"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497" filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "3"  openGL_Colour = "6407" gen_Mipmaps = "0"></new_File>
+		<new_File  ID = "30" name = "Kitchen_Floor.png"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497"filter_Min = "9729" filter_Mag = "9729"soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>
+		<new_File  ID = "31" name = "Cupboard.jpg"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497"filter_Min = "9729" filter_Mag = "9729"soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>
+		<new_File  ID = "32" name = "Fridge.jpg"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497"filter_Min = "9729" filter_Mag = "9729"soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>
+		<new_File  ID = "33" name = "Kitchen_Tiles1.jpg"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497"filter_Min = "9729" filter_Mag = "9729"soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>
+		<new_File  ID = "34" name = "White.png"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497"filter_Min = "9729" filter_Mag = "9729"soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>
+		<new_File  ID = "37" name = "Fence_PNG_Clipart.png"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497"filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>
+		<new_File  ID = "35" name = "firstaid.jpeg"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497"filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>
+		<new_File  ID = "36" name = "ammo.jpg"	 texture_Mode = "3553" wrapping_S = "10497"  wrapping_T = "10497"filter_Min = "9729" filter_Mag = "9729" soil_Colour_Load = "4"  openGL_Colour = "6408" gen_Mipmaps = "1"></new_File>
+	</texture_Files>
+
+  <texture_Skybox>
+    <new_File
+			ID = "38"
+			name_right = "TowerHousepano1.jpg"
+			name_left = "TowerHousepano2.jpg"
+			name_top = "TowerHousepano3.jpg"
+			name_bottom = "TowerHousepano4.jpg"
+			name_back = "TowerHousepano5.jpg"
+			name_front = "TowerHousepano6.jpg"
+			texture_Mode = "3553"
+			wrapping_S = "10497"
+			wrapping_T = "10497"
+			filter_Min = "9729"
+			filter_Mag = "9729"
+			soil_Colour_Load = "4"
+			openGL_Colour = "6408" >
+    </new_File>
+  </texture_Skybox>
+	
+	<shader_File_Location>assets/shaders/</shader_File_Location>
+	<shader_Files>
+		<new_File ID = "0" vertex = "passIn.vert" fragment = "passIn.frag" geometry = ""> </new_File>
+		<new_File ID = "1" vertex = "font_Shader.vert" fragment = "font_Shader.frag" geometry = ""> </new_File>
+		<new_File ID = "2" vertex = "light_Shader.vert" fragment = "light_Shader.frag" geometry = ""> </new_File>
+		<new_File ID = "3" vertex = "editor_Shader.vert" fragment = "editor_Shader.frag" geometry = ""> </new_File>
+		<new_File ID = "4" vertex = "gui_Shader.vert" fragment = "gui_Shader.frag" geometry = ""> </new_File>
+		<new_File ID = "5" vertex = "arrow_Shader.vert" fragment = "arrow_Shader.frag" geometry = ""> </new_File>
+		<new_File ID = "6" vertex = "depth_Shader.vert" fragment = "depth_Shader.frag" geometry = "depth_Shader.geom"> </new_File>
+		<new_File ID = "7" vertex = "particle_Shader.vert" fragment = "particle_Shader.frag" geometry = ""> </new_File>
+		<new_File ID = "8" vertex = "skybox.vert" fragment = "skybox.frag" geometry = ""> </new_File>
+		<new_File ID = "9" vertex = "hdr.vert" fragment = "hdr.fs" geometry = ""> </new_File>
+		<new_File ID = "10" vertex = "blur.vs" fragment = "blur.fs" geometry = ""> </new_File>
+ 	</shader_Files>
+	
+	<font_File_Location>assets/fonts/</font_File_Location>
+	<font_Files>
+		<new_File ID = "0" font = "font.fnt" texture = "1"> </new_File>
+ 	</font_Files>
+	
+	<meshes_2D>
+		<new_File ID = "0" position = "(0, 0)" texture = "8" dimensions = "(333, 69)" colour = "(1, 1, 1)"></new_File>
+		<new_File ID = "1" position = "(0, 69)" texture = "8" dimensions = "(333, 69)" colour = "(1, 1, 1)"></new_File>
+		<new_File ID = "2" position = "(0, 138)" texture = "8" dimensions = "(332, 33)" colour = "(1, 1, 1)"></new_File>
+ 	</meshes_2D>
+	
+	<audio_File_Location>assets/audio/</audio_File_Location>
+	<audio_Files>
+		<new_File ID = "0" name = "Background.wav" volume = "0.3" position = "(0,0,0)" loop = "true" threeD = "true" stream = "false"></new_File>
+		<new_File ID = "1" name = "walking.wav" volume = "0.8" position = "(0,0,0)" loop = "false" threeD = "true" stream = "false"></new_File>
+		<new_File ID = "2" name = "robot_blip.wav" volume = "1" position = "(0,0,0)" loop = "false" threeD = "true" stream = "false"></new_File>
+		<new_File ID = "3" name = "reload_pistol.wav" volume = "1" position = "(0,0,0)" loop = "false" threeD = "true" stream = "false"></new_File>
+		<new_File ID = "4" name = "Wilhelm.wav" volume = "1" position = "(0,0,0)" loop = "false" threeD = "true" stream = "false"></new_File>
+		<new_File ID = "5" name = "celebrate.wav" volume = "1" position = "(0,0,0)" loop = "false" threeD = "true" stream = "false"></new_File>
+		<new_File ID = "6" name = "start.wav" volume = "1" position = "(0,0,0)" loop = "false" threeD = "true" stream = "false"></new_File>
+		<new_File ID = "7" name = "jump.wav" volume = "1" position = "(0,0,0)" loop = "false" threeD = "true" stream = "false"></new_File>
+ 	</audio_Files>
+</resources>

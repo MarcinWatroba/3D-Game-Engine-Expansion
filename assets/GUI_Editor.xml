@@ -1,0 +1,59 @@
+<!--- Patterns:
+	UseY_Add = Adds window size Y
+	UseX_Add = Adds window size X
+	UseXY_Add = Adds window size X & Y
+	UseX_Half = Divdes window size X by 2 and adds
+	UseY_Half = Divdes window size Y by 2 and adds
+	UseXY_HalfDivdes window size X & Y by 2 and adds
+	"" = Does nothing
+--->
+
+<gui>
+	<new_GUIElement name = "Add_object" pick_ID = "1000" object_Type = "Universal" gui_Type = "Button" prefab = "Blue Button" text = "Add object" render = "true" angle = "0" layer = "0" position = "(600, 100)" window_PosMode = "" size = "(200, 50)" window_SizeMode = ""/>
+	<new_GUIElement name = "Move" pick_ID = "1001" object_Type = "Universal" gui_Type = "Button" prefab = "Blue Button" text = "Move" render = "true" angle = "0" layer = "0" position = "(0, 0)" window_PosMode = "" size = "(200, 50)" window_SizeMode = ""/>
+	<new_GUIElement name = "Rotate" pick_ID = "1002" object_Type = "Universal" gui_Type = "Button" prefab = "Blue Button" text = "Rotate" render = "true" angle = "0" layer = "0" position = "(200, 0)" window_PosMode = "" size = "(200, 50)" window_SizeMode = ""/>
+	<new_GUIElement name = "Scale" pick_ID = "1003" object_Type = "Universal" gui_Type = "Button" prefab = "Blue Button" text = "Scale" render = "true" angle = "0" layer = "0" position = "(400, 0)" window_PosMode = "" size = "(200, 50)" window_SizeMode = ""/>
+	<new_GUIElement name = "Select" pick_ID = "1004" object_Type = "Universal" gui_Type = "Button" prefab = "Blue Button" text = "Select" render = "true" angle = "0" layer = "0" position = "(600, 0)" window_PosMode = "" size = "(200, 50)" window_SizeMode = ""/>
+	
+	<new_GUIElement name = "Add_ObjectText" pick_ID = "1005" object_Type = "Hidden_Add" gui_Type = "Text" prefab = "Text" text = "Object Name:" render = "false" angle = "0" layer = "0" position = "(0, 600.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Add_ObjectTextbox" pick_ID = "1006" object_Type = "Hidden_Add" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 600.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Add_PrefabText" pick_ID = "1007" object_Type = "Hidden_Add" gui_Type = "Text" prefab = "Text" text = "Prefab Name:" render = "false" angle = "0" layer = "0" position = "(0, 630.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Add_PrefabTextbox" pick_ID = "1008" object_Type = "Hidden_Add" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 630.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Add_OriginText" pick_ID = "1009" object_Type = "Hidden_Add" gui_Type = "Text" prefab = "Text" text = "Origin:" render = "false" angle = "0" layer = "0" position = "(0, 660.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Add_OriginTextbox" pick_ID = "1010" object_Type = "Hidden_Add" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 660.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Add_PositionText" pick_ID = "1011" object_Type = "Hidden_Add" gui_Type = "Text" prefab = "Text" text = "Position:" render = "false" angle = "0" layer = "0" position = "(0, 690.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Add_PositionTextbox" pick_ID = "1012" object_Type = "Hidden_Add" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 690.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Add_ScaleText" pick_ID = "1013" object_Type = "Hidden_Add" gui_Type = "Text" prefab = "Text" text = "Scale:" render = "false" angle = "0" layer = "0" position = "(0, 720.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Add_ScaleTextbox" pick_ID = "1014" object_Type = "Hidden_Add" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 720.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	
+	<new_GUIElement name = "Show_ObjectText" pick_ID = "1015" object_Type = "Hidden_Show" gui_Type = "Text" prefab = "Text" text = "Object Name:" render = "false" angle = "0" layer = "0" position = "(0, 600.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Show_ObjectTextbox" pick_ID = "1016" object_Type = "Hidden_Show" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 600.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Show_PrefabText" pick_ID = "1017" object_Type = "Hidden_Show" gui_Type = "Text" prefab = "Text" text = "Prefab Name:" render = "false" angle = "0" layer = "0" position = "(0, 630.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Show_PrefabTextbox" pick_ID = "1018" object_Type = "Hidden_Show" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 630.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Show_OriginText" pick_ID = "1019" object_Type = "Hidden_Show" gui_Type = "Text" prefab = "Text" text = "Origin:" render = "false" angle = "0" layer = "0" position = "(0, 660.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Show_OriginTextbox" pick_ID = "1020" object_Type = "Hidden_Show" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 660.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Show_PositionText" pick_ID = "1021" object_Type = "Hidden_Show" gui_Type = "Text" prefab = "Text" text = "Position:" render = "false" angle = "0" layer = "0" position = "(0, 690.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Show_PositionTextbox" pick_ID = "1022" object_Type = "Hidden_Show" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 690.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Show_ScaleText" pick_ID = "1023" object_Type = "Hidden_Show" gui_Type = "Text" prefab = "Text" text = "Scale:" render = "false" angle = "0" layer = "0" position = "(0, 720.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Show_ScaleTextbox" pick_ID = "1024" object_Type = "Hidden_Show" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 720.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Show_IDText" pick_ID = "1040" object_Type = "Hidden_Show" gui_Type = "Text" prefab = "Text" text = "ID:" render = "false" angle = "0" layer = "0" position = "(130, 720.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Show_IDTextbox" pick_ID = "1041" object_Type = "Hidden_Show" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(260, 720.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	
+	<new_GUIElement name = "Add_OK" pick_ID = "1025" object_Type = "Hidden_Add" gui_Type = "Button" prefab = "Blue Button" text = "OK" render = "false" angle = "0" layer = "0" position = "(, -300)" window_PosMode = "UseY_Add" size = "(200, 50)" window_SizeMode = ""/>
+	<new_GUIElement name = "Add_Cancel" pick_ID = "1026" object_Type = "Hidden_Add" gui_Type = "Button" prefab = "Blue Button" text = "Cancel" render = "false" angle = "0" layer = "0" position = "(400, -300)" window_PosMode = "UseY_Add" size = "(200, 50)" window_SizeMode = ""/>
+	
+	<new_GUIElement name = "Set" pick_ID = "1028" object_Type = "Universal" gui_Type = "Button" prefab = "Blue Button" text = "Set" render = "true" angle = "0" layer = "0" position = "(600, 50)" window_PosMode = "" size = "(200, 50)" window_SizeMode = ""/>
+	<new_GUIElement name = "Set_ScaleText" pick_ID = "1028" object_Type = "Hidden_Set" gui_Type = "Text" prefab = "Text" text = "Scale:" render = "false" angle = "0" layer = "0" position = "(0, 720.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Set_ScaleTextbox" pick_ID = "1029" object_Type = "Hidden_Set" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 720.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Set_OriginText" pick_ID = "1030" object_Type = "Hidden_Set" gui_Type = "Text" prefab = "Text" text = "Origin:" render = "false" angle = "0" layer = "0" position = "(0, 660.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Set_OriginTextbox" pick_ID = "1031" object_Type = "Hidden_Set" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 660.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Set_PositionText" pick_ID = "1032" object_Type = "Hidden_Set" gui_Type = "Text" prefab = "Text" text = "Position:" render = "false" angle = "0" layer = "0" position = "(0, 690.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Set_PositionTextbox" pick_ID = "1033" object_Type = "Hidden_Set" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "false" angle = "0" layer = "0" position = "(130, 690.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "SetScale_OK" pick_ID = "1034" object_Type = "Hidden_Set" gui_Type = "Button" prefab = "Blue Button" text = "OK" render = "false" angle = "0" layer = "0" position = "(, -300)" window_PosMode = "UseY_Add" size = "(200, 50)" window_SizeMode = ""/>
+	<new_GUIElement name = "SetScale_Cancel" pick_ID = "1035" object_Type = "Hidden_Set" gui_Type = "Button" prefab = "Blue Button" text = "Cancel" render = "false" angle = "0" layer = "0" position = "(400, -300)" window_PosMode = "UseY_Add" size = "(200, 50)" window_SizeMode = ""/>
+	
+	<new_GUIElement name = "Save" pick_ID = "1036" object_Type = "Universal" gui_Type = "Button" prefab = "Blue Button" text = "Load" render = "true" angle = "0" layer = "0" position = "(800, 0)" window_PosMode = "" size = "(200, 50)" window_SizeMode = ""/>
+	<new_GUIElement name = "Load" pick_ID = "1037" object_Type = "Universal" gui_Type = "Button" prefab = "Blue Button" text = "Save" render = "true" angle = "0" layer = "0" position = "(800, 50)" window_PosMode = "" size = "(200, 50)" window_SizeMode = ""/>
+	<new_GUIElement name = "SaveLoad_Textbox" pick_ID = "1038" object_Type = "Universal" gui_Type = "Textbox" prefab = "Textbox" text = "" render = "true" angle = "0" layer = "0" position = "(1000, 25.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+	<new_GUIElement name = "Set_FileText" pick_ID = "1039" object_Type = "Universal" gui_Type = "Text" prefab = "Text" text = "File Name:" render = "true" angle = "0" layer = "0" position = "(1000, 0.f)" window_PosMode = "" size = "(300.f, 20.f)" window_SizeMode = ""/>
+</gui>
