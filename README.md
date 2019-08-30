@@ -9,6 +9,9 @@ Game engine uses Euler Method and AABB collision for physics and collision detec
 Compiler used: Microsoft Visual Studio 2015
 Version: 14.0.25431.01 Update 3
 
+<h2>Screenshot</h2>
+<img src="https://github.com/marcin388/3D-Game-Engine-Expansion/blob/master/assets/textures/gameEng3.jpg">
+
 <h2>Libraries used</h2>
 
 1. SOIL - To load textures in readable format for OpenGL, Version: 7 July 2008
