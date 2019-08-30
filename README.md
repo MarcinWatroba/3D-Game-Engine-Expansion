@@ -2,6 +2,10 @@
 
 My own repository for expanding and improving the game engine originally built with my group as a University project. Original group project Github repository can be found <a href="https://github.com/marcin388/3D-Game-Engine">here.</a> 
 
+The game engine supports 3D models, textures, dynamic light sources, dynamic shadows, skyboxes, particle effects, bloom, and HDR. Each light source along with shadows it casts is dynamically updated when moved in the editor.
+
+Game engine uses Euler Method and AABB collision for physics and collision detection. AI behaviours are achieved using Finite-State Machine where Non-Player Characters can behave differently based on the current state they are in, (such as patrol and attack). GUI level editor has been implemented that allows to load scenes, as well as add, delete, move, scale, and transform objects within each scene. 
+
 Compiler used: Microsoft Visual Studio 2015
 Version: 14.0.25431.01 Update 3
 
