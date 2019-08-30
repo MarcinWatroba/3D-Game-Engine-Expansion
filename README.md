@@ -5,7 +5,7 @@ My own repository for expanding and improving the game engine originally built w
 Compiler used: Microsoft Visual Studio 2015
 Version: 14.0.25431.01 Update 3
 
-Libraries used:
+<h2>Libraries used</h2>
 
 1. SOIL - To load textures in readable format for OpenGL, Version: 7 July 2008
 
@@ -15,7 +15,19 @@ Libraries used:
 
 4. Glew32 - Library used for establishing OpenGL calls, Version: 2.0.0
 
-How to compile the code:
+<h2>How to compile the code</h2>
+Use either Debug or Release configuration and select x86 (32 bit) solution.
 
-1. Use Debug configuration and select x86 (32 bit) solution.
-2. Run the compiler in the Release mode.
+<h2>Choosing between game/editor</h2>
+To run game:
+<ul>
+  <li>Go into src->Engine->App->main.cpp</li>
+  <li>Comment "app.run("Editor");"</li>
+  <li>Uncomment "app.run("Game");"</li>
+</ul>
+To run editor:
+<ul>
+  <li>Go into src->Engine->App->main.cpp</li>
+  <li>Comment "app.run("Game");"</li>
+  <li>Uncomment "app.run("Editor");"</li>
+</ul>
